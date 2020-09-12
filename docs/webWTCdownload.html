@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+   <metahttp-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>Camera Test</title>
+  <style>
+  canvas, video{
+    border: 1px solid gray;
+  }
+  </style>
+
+</head>
+<body>
+
+<h1>HTML5カメラ</h1>
+
+
+<video id="camera" width="400" height="300"></video>
+
+<form>
+  <button type="button" id="shutter">シャッター</button>
+</form>
+<br>
+<form>
+  <button type="button" id="download">保存</button>
+</form>
+
+<!--
+<audio id="se" preload="auto">
+  <source src="camera-shutter1.mp3" type="audio/mp3">
+</audio>
+-->
+<canvas id="picture" width="400" height="300"></canvas>
+<script src="camera_script.js"></script>
+
+</body>
+</html>
